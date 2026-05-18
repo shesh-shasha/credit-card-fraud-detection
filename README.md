@@ -8,6 +8,7 @@ A machine learning-based financial fraud detection system developed using Python
 - SMOTE for handling imbalanced data
 - ROC-AUC and F1 score evaluation
 - Data preprocessing and feature engineering
+- Fraud analysis dashboard generation
 
 ## Machine Learning Algorithms Used
 - Logistic Regression
@@ -20,6 +21,7 @@ A machine learning-based financial fraud detection system developed using Python
 - Pandas
 - NumPy
 - Matplotlib
+- Imbalanced-learn (SMOTE)
 
 ## Screenshots
 
@@ -28,6 +30,21 @@ A machine learning-based financial fraud detection system developed using Python
 
 ### Results
 ![Results](screenshots/results.png)
+
+## Output
+
+The system successfully detects fraudulent credit card transactions using Machine Learning models such as Logistic Regression, Random Forest, and Gradient Boosting. The project includes data preprocessing, SMOTE oversampling, feature engineering, performance evaluation, and visualization techniques to improve fraud detection accuracy.
+
+### Key Functionalities
+- Fraud detection using classification algorithms
+- ROC Curve and Precision-Recall visualization
+- Confusion Matrix analysis
+- Feature importance analysis
+- Fraud rate visualization by transaction hour
+- Dashboard generation using Matplotlib
+
+### Result
+The Random Forest model achieved the best fraud detection performance with high ROC-AUC and F1-score values.
 
 ## Author
 Shashanth Ponugoti
